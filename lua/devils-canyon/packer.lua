@@ -33,5 +33,15 @@ return require('packer').startup(function(use)
     }
     }
     use 'ThePrimeagen/vim-be-good'
-
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+    use 'tpope/vim-fugitive'
+    use {
+        'folke/noice.nvim',
+        requires = {
+            { 'MunifTanjim/nui.nvim' }
+        }
+    }
 end)
