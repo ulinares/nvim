@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.g.python3_host_prog = "/Users/uziel.linares/.pyenv/shims/python"
+vim.g.python3_host_prog = "$HOME/.pyenv/shims/python"
 
 vim.opt.guicursor = ""
 
